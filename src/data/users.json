@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "username": "Alice",
+    "email": "alice@gmail.com",
+    "password": "password123"
+  },
+  {
+    "id": 2,
+    "username": "Bob",
+    "email": "bob@gmail.com",
+    "password": "password456"
+  },
+  {
+    "id": 3,
+    "username": "Charlie",
+    "email": "charlie@gmail.com",
+    "password": "$2b$10$V2scC0ZJkYkHo5R1MjmuH.ii/9qVjyDzdshUp0pZKxx7iwVG0IC0."
+  },
+  {
+    "id": 4,
+    "username": "Carlos",
+    "email": "carlos@gmail.com",
+    "password": "$2b$10$RiiZFyPk0jIQyKAnznBoD.bpAs9aE0nF16rc1HE.4/P.ZU2x6d4t6"
+  },
+  {
+    "id": 5,
+    "username": "Carlos2",
+    "email": "carlos2@gmail.com",
+    "password": "$2b$10$IlEJjltJt/1T.gqXm5TJ0uEWxsaBGw4vWBu1ryk7Lk5YuJYmho9pC"
+  },
+  {
+    "id": 6,
+    "username": "Carlinhos",
+    "email": "carlos3@gmail.com",
+    "password": "$2b$10$359oM7necbk4OriUyEQT5u8uV.b7O7/MVDgB9Qdn1GwNk2t8LyKtC"
+  },
+  {
+    "id": 7,
+    "username": "Gabriel",
+    "email": "teste3@gmail.com",
+    "password": "$2b$10$Ig9nBGUMVbatri.DtuQeqOtjaeC3EhNjrEE.Exs4OysWEvqa2GzJG"
+  }
+]
