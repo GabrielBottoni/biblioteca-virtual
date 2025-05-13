@@ -11,7 +11,7 @@ const getAllLivros = async (req, res) => {
         }
         res.status(500).json({ message: 'Erro ao listar livros', error });
     }
-}
+};
 
 const getLivro = async (req, res) => {
     try {
@@ -24,7 +24,7 @@ const getLivro = async (req, res) => {
         }
         res.status(500).json({ message: 'Error: ' + error.message });
     }
-} 
+};
 
 const updateLivro = async (req, res) => {
     try {
@@ -34,7 +34,7 @@ const updateLivro = async (req, res) => {
         console.error(error);
         res.status(500).json({ message: 'Error: ' + error.message });
     }
-}
+};
 
 const deleteLivro = async (req, res) => {
     try {
@@ -44,21 +44,23 @@ const deleteLivro = async (req, res) => {
         console.error(error);
         res.status(500).json({ message: 'Error: ' + error.message });
     }
-}
+};
 
 const createLivro = async (req, res) => {
     try {
-        const { titulo, autor, ano, genero} = req.body;
-        const imagem = req.file?.filename;
+        const { titulo, autor, ano, genero } = req.body;
+        const image = req.file?.filename;
 
-        if (!imagem) {
-            return res.status(400).json({ message: 'Imagem não enviada.' });
+        // Validação para garantir que todos os campos estão presentes
+        if (!titulo || !autor || !ano || !genero || !image) {
+            return res.status(400).json({ message: 'Todos os campos são obrigatórios.' });
         }
 
-        const livro = await livroService.createLivros({ titulo, autor, ano, genero, imagem });
-        return res.status(201).json(livro); 
-        
+        // Criar o caminho completo para a imagem
+        const imagePath = `${req.file.filename}`;
 
+        const livro = await livroService.createLivros({ titulo, autor, ano, genero, image: imagePath });
+        return res.status(201).json(livro); 
     } catch (err) {
         console.error(err);
         res.status(500).json({ message: 'Erro ao criar livro.', error: err.message });
@@ -71,4 +73,4 @@ module.exports = {
     updateLivro,
     deleteLivro,
     createLivro
-}
+};

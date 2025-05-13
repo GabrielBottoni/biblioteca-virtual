@@ -2,8 +2,9 @@ const express = require('express');
 const router = express.Router();
 const usersController = require('../controllers/users.controller');
 const { verifyToken } = require('../middlewares/auth.middleware');
+const authorizeRoles = require('../middlewares/role.middleware');
 
-router.get('/', verifyToken ,usersController.getAllUsers);
+router.get('/admin', verifyToken, authorizeRoles ("admin"), usersController.getAllUsers);
 
 router.post('/', usersController.createUser);
 

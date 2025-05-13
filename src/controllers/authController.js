@@ -1,4 +1,6 @@
 const authService = require('../services/authService');
+const saveUsers = require('../models/users.model');
+const bcrypt = require('bcrypt');
 
 const login = async (request, response) => {
     const { email, password } = request.body;

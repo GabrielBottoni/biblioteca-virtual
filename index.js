@@ -18,10 +18,11 @@ app.use(logRequest);
 
 // Rotas publicas
 app.use('/auth', authRoutes);
-app.use('/users', usersRoutes);
 
 // Rotas privadas
 app.use('/livros', verifyToken, livroRoutes);
+// Rota de usuários
+app.use('/users', verifyToken, usersRoutes);
 
 const port = process.env.PORT;
 app.listen(port, () => 

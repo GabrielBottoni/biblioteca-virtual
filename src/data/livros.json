@@ -1,58 +1,50 @@
 [
   {
-    "id": 2,
-    "titulo": "O Pequeno Príncipe",
-    "autor": "Antoine de Saint-Exupéry",
-    "ano": 1943,
-    "genero": "Fábula",
-    "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Capit%C3%A3es_da_Areia.jpg/250px-Capit%C3%A3es_da_Areia.jpg"
-  },
-  {
-    "id": 3,
-    "titulo": "1984",
-    "autor": "George Orwell",
-    "ano": 1949,
-    "genero": "Ficção Científica",
-    "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Capit%C3%A3es_da_Areia.jpg/250px-Capit%C3%A3es_da_Areia.jpg"
-  },
-  {
-    "id": 4,
-    "titulo": "Capitães da Areia",
-    "autor": "Jorge Amado",
-    "ano": 1937,
-    "genero": "Romance",
-    "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Capit%C3%A3es_da_Areia.jpg/250px-Capit%C3%A3es_da_Areia.jpg"
-  },
-  {
-    "id": 5,
-    "titulo": "Testando metodo POST",
-    "autor": "Gabriel",
-    "ano": 1943,
-    "genero": "Teste",
-    "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Capit%C3%A3es_da_Areia.jpg/250px-Capit%C3%A3es_da_Areia.jpg"
-  },
-  {
-    "id": 6,
-    "titulo": "Testando metodo POST",
-    "autor": "Gabriel 2",
-    "ano": 1943,
-    "genero": "Teste",
-    "image": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/0c/Capit%C3%A3es_da_Areia.jpg/250px-Capit%C3%A3es_da_Areia.jpg"
-  },
-  {
-    "id": 1746584535902,
-    "titulo": "teste",
-    "autor": "testando",
-    "ano": "2025",
-    "genero": "testando",
-    "imagem": "1746584535896-262898473.jpg"
-  },
-  {
     "id": 1746588070908,
     "titulo": "seila",
     "autor": "testando ",
     "ano": "2025",
     "genero": "testando ",
-    "imagem": "1746588070876-155245935.jpg"
+    "image": "1746588070876-155245935.jpg"
+  },
+  {
+    "id": 1747084149496,
+    "titulo": "testeeeeee",
+    "autor": "eeeeeee",
+    "ano": "2025",
+    "genero": "eeeeeeee",
+    "image": "1747084149495-418055999.jpg"
+  },
+  {
+    "id": 1747088862300,
+    "titulo": "lalalala",
+    "autor": "teste",
+    "ano": "2022",
+    "genero": "tanto faz",
+    "image": "/uploads/1747088862296-851387990.jpg"
+  },
+  {
+    "id": 1747089490356,
+    "titulo": "lalalala",
+    "autor": "teste",
+    "ano": "2022",
+    "genero": "tanto faz",
+    "image": "/uploads/1747089490353-662028784.jpg"
+  },
+  {
+    "id": 1747089567912,
+    "titulo": "lalalala",
+    "autor": "teste",
+    "ano": "2022",
+    "genero": "tanto faz",
+    "image": "1747089567897-624222570.jpg"
+  },
+  {
+    "id": 1747098797329,
+    "titulo": "teste de ID",
+    "autor": "teste",
+    "ano": "2022",
+    "genero": "tanto faz",
+    "image": "1747098797321-922522391.jpg"
   }
 ]

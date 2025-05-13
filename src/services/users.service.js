@@ -1,42 +1,44 @@
 const usersModel = require('../models/users.model');
-const bycrypt = require('bcryptjs');
+const bcrypt = require('bcryptjs');
+const { v4: uuidv4 } = require('uuid'); // Importando o UUID
 
 const getAllUsers = async () => {
     const users = await usersModel.getUsers();
-    if(!users || users.length === 0) {
-        throw new Error('Usuários não enconttrados');
+    if (!users || users.length === 0) {
+        throw new Error('Usuários não encontrados');
     }
-    return users;
-}
+    return users.map(({ password, ...user }) => user); // Remove a senha de todos
+};
 
-const saveUsers = async ({username, email, password}) => {
-    const user = await usersModel.getUsers();
+const saveUsers = async ({ username, email, password }) => {
+    const users = await usersModel.getUsers();
 
-    const userExists = user.some(
+    const userExists = users.some(
         user =>
             user.username === username ||
             user.email === email
-    )
+    );
 
     if (userExists) return null;
 
-    const hashedPassword = await bycrypt.hash(password, 10);
+    const hashedPassword = await bcrypt.hash(password, 10);
 
     const newUser = {
-        id: user.length + 1,
+        id: uuidv4(), // Gerando um ID único com UUID
         username,
         email,
         password: hashedPassword,
-    }
-
-    user.push(newUser);
-    await usersModel.saveUsers(user);
-
-    const { password: _, ...safeUser} = newUser;
-    return safeUser;
-}
-
-    module.exports = { 
-        getAllUsers,
-        saveUsers,
+        role: 'user',
     };
+
+    users.push(newUser);
+    await usersModel.saveUsers(users);
+
+    const { password: _, ...safeUser } = newUser;
+    return safeUser;
+};
+
+module.exports = { 
+    getAllUsers,
+    saveUsers,
+};

@@ -13,7 +13,7 @@ const getAllUsers = async (req, res) => {
     }
 }
 const createUser = async (req, res) => {
-    const { username, email, password } = req.body;
+    const { username, email, password, role } = req.body;
 
     try {
         if (!username || !email || !password) {
