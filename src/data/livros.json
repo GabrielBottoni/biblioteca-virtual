@@ -5,7 +5,8 @@
     "autor": "Miguel de Cervantes",
     "ano": "1605",
     "genero": "Romance",
-    "image": "1747187183614-29408996.jpg"
+    "descricao": "Uma sátira à literatura de cavalaria, esta obra-prima acompanha um fidalgo enlouquecido que acredita ser um cavaleiro e embarca em aventuras hilárias com seu fiel escudeiro, Sancho Pança.",
+    "image": "1747192782917-898683419.jpg"
   },
   {
     "id": 1747186024239,
@@ -13,6 +14,7 @@
     "autor": "Jane Austen",
     "ano": "1813",
     "genero": "Romance",
+    "descricao": "Um retrato crítico da sociedade inglesa do século XIX, onde a inteligência e independência de Elizabeth Bennet se chocam com os preconceitos de classe e o orgulho de Mr. Darcy.",
     "image": "1747186024236-9071525.jpg"
   },
   {
@@ -21,6 +23,7 @@
     "autor": "George Orwell",
     "ano": "1949",
     "genero": "Distopia",
+    "descricao": "Um romance distópico sobre um regime totalitário que vigia todos os cidadãos, onde o protagonista Winston Smith desafia a opressora realidade imposta pelo Grande Irmão.",
     "image": "1747186052811-11442289.jpg"
   },
   {
@@ -29,6 +32,7 @@
     "autor": "F. Scott Fitzgerald",
     "ano": "1925",
     "genero": "Ficção",
+    "descricao": "Ambientado nos anos 1920, narra a vida de Jay Gatsby e seu amor idealizado por Daisy Buchanan, revelando o vazio por trás da riqueza e glamour da Era do Jazz.",
     "image": "1747186086299-570889064.jpg"
   },
   {
@@ -37,6 +41,7 @@
     "autor": "Herman Melville",
     "ano": "1851",
     "genero": "Aventura",
+    "descricao": "A obsessiva busca do capitão Ahab pela baleia branca Moby Dick representa um confronto épico entre homem, natureza e destino.",
     "image": "1747186114258-986805013.jpg"
   },
   {
@@ -45,6 +50,7 @@
     "autor": "James Joyce",
     "ano": "1922",
     "genero": "Modernismo",
+    "descricao": "Com uma narrativa experimental, a obra acompanha um dia na vida de Leopold Bloom em Dublin, sendo considerada uma das mais complexas e inovadoras do modernismo literário.",
     "image": "1747186143967-766097744.jpg"
   },
   {
@@ -53,6 +59,7 @@
     "autor": "Marcel Proust",
     "ano": "1913",
     "genero": "Literatura",
+    "descricao": "Uma exploração profunda da memória e da passagem do tempo, através das lembranças do narrador sobre sua vida, amores e experiências na sociedade francesa.",
     "image": "1747186174685-184225213.jpg"
   },
   {
@@ -61,6 +68,7 @@
     "autor": "Liev Tolstói",
     "ano": "1869",
     "genero": "Histórico",
+    "descricao": "Uma vasta narrativa que mistura ficção e história, acompanhando famílias aristocráticas russas durante as Guerras Napoleônicas.",
     "image": "1747186202004-955352440.jpg"
   },
   {
@@ -69,6 +77,7 @@
     "autor": "Fiódor Dostoiévski",
     "ano": "1866",
     "genero": "Ficção",
+    "descricao": "Crime e Castigo é um romance psicológico que explora a mente de um jovem estudante que comete um assassinato e enfrenta as consequências morais e éticas de seu ato.",
     "image": "1747186227833-170114867.jpg"
   },
   {
@@ -77,6 +86,7 @@
     "autor": "J.R.R. Tolkien",
     "ano": "1954",
     "genero": "Fantasia",
+    "descricao": "Uma épica jornada na Terra Média onde hobbits, magos e guerreiros lutam contra o mal para destruir o Um Anel e salvar seu mundo.",
     "image": "1747186264228-646060285.jpg"
   },
   {
@@ -85,6 +95,7 @@
     "autor": "Gabriel García Márquez",
     "ano": "1967",
     "genero": "Realismo Mágico",
+    "descricao": "A saga da família Buendía na fictícia Macondo, entrelaçando realidade e fantasia em uma crítica à história e política latino-americana.",
     "image": "1747186292948-559090973.jpg"
   },
   {
@@ -93,6 +104,7 @@
     "autor": "J.D. Salinger",
     "ano": "1951",
     "genero": "Ficção",
+    "descricao": "A jornada introspectiva de Holden Caulfield por Nova York após ser expulso da escola, refletindo a angústia e alienação da juventude.",
     "image": "1747186326114-116777208.jpg"
   },
   {
@@ -101,6 +113,7 @@
     "autor": "J.R.R. Tolkien",
     "ano": "1937",
     "genero": "Fantasia",
+    "descricao": "Aventura fantástica de Bilbo Bolseiro, um hobbit que embarca em uma jornada para recuperar um tesouro guardado por um dragão.",
     "image": "1747186355642-63290180.jpg"
   },
   {
@@ -109,6 +122,7 @@
     "autor": "Gustave Flaubert",
     "ano": "1856",
     "genero": "Realismo",
+    "descricao": "A história de Emma Bovary, uma mulher insatisfeita com a vida provinciana e que busca paixão e luxo, levando-a à ruína.",
     "image": "1747186381635-174467698.jpg"
   },
   {
@@ -117,6 +131,7 @@
     "autor": "Fiódor Dostoiévski",
     "ano": "1880",
     "genero": "Filosófico",
+    "descricao": "Uma profunda reflexão sobre fé, moralidade, livre-arbítrio e a natureza humana por meio da história de três irmãos e o assassinato de seu pai.",
     "image": "1747186411151-848582494.jpg"
   },
   {
@@ -125,6 +140,7 @@
     "autor": "Charlotte Brontë",
     "ano": "1847",
     "genero": "Romance",
+    "descricao": "A trajetória de Jane Eyre, uma mulher órfã que luta por amor, dignidade e independência em uma sociedade rígida e patriarcal.",
     "image": "1747186433783-345823249.jpg"
   },
   {
@@ -133,6 +149,7 @@
     "autor": "Emily Brontë",
     "ano": "1847",
     "genero": "Romance Gótico",
+    "descricao": "Uma trágica história de amor e vingança entre Catherine e Heathcliff, marcada por obsessão e ressentimento, ambientada nos ermos de Yorkshire.",
     "image": "1747186458799-437514537.jpg"
   },
   {
@@ -141,6 +158,7 @@
     "autor": "Vladimir Nabokov",
     "ano": "1955",
     "genero": "Controvérsia",
+    "descricao": "Um romance provocador que narra a obsessão de Humbert Humbert por Dolores Haze, explorando temas controversos com estilo literário refinado e ambíguo.",
     "image": "1747186483077-466403767.jpg"
   },
   {
@@ -149,6 +167,7 @@
     "autor": "Franz Kafka",
     "ano": "1925",
     "genero": "Modernismo",
+    "descricao": "Josef K. é preso sem saber seu crime, mergulhando em uma burocracia absurda e opressiva que o leva à paranoia e ao colapso existencial.",
     "image": "1747186514675-17664673.jpg"
   },
   {
@@ -157,6 +176,7 @@
     "autor": "Franz Kafka",
     "ano": "1915",
     "genero": "Fantasia Sombria",
+    "descricao": "Após acordar transformado em um inseto gigante, Gregor Samsa enfrenta o isolamento e a rejeição, em uma metáfora poderosa sobre alienação e desumanização.",
     "image": "1747186537559-373655936.jpg"
   }
 ]

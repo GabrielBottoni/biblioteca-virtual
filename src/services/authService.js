@@ -1,11 +1,11 @@
-require ('dotenv').config();
+require('dotenv').config();
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const userModel = require('../models/users.model');
 
 const SECRET = process.env.JWT_SECRET;
 
-const authenticateUser = async (email, password) => {    
+const authenticateUser = async (email, password) => {
     const users = await userModel.getUsers();
 
     const user = users.find(
@@ -22,7 +22,7 @@ const authenticateUser = async (email, password) => {
         id: user.id,
         username: user.username,
         email: user.email,
-        role: user.role      
+        role: user.role
     }, SECRET, {
         expiresIn: '1h'
     });

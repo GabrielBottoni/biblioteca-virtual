@@ -4,13 +4,97 @@
     "username": "Usuário",
     "email": "a@a.com",
     "password": "$2b$10$ZT5Efh./IeoLDrgbIxwYreAGLVRkdrxiHTR0DJPsGDXD5klIh88Aq",
-    "role": "user"
+    "role": "admin"
   },
   {
     "id": 2,
     "username": "admin",
     "email": "admin@a.com",
     "password": "$2b$10$XsMw.XYF9aJVMvkUiZ4ShOjd1Y4lGJ558WAPBUUR7MnAGmALzZwES",
+    "role": "admin"
+  },
+  {
+    "id": "7b382706-ed01-4b89-9411-5b64c7ebe488",
+    "username": "Alice Martins",
+    "email": "alice.martins@example.com",
+    "password": "$2b$10$NtW7xryWdCD833Uv79AB9OYa1KZJ812h5LJgEOyv8kTci06ZpB4hG",
+    "role": "user"
+  },
+  {
+    "id": "0e2935e8-8bf0-4410-81da-bd428787a2f6",
+    "username": "Bruno Souza",
+    "email": "bruno.souza@example.com",
+    "password": "$2b$10$6PHLO1q6GMWpMuCUvAG8K.AybRACeRh3XDogd10lB8ZEPI6FW41uG",
+    "role": "user"
+  },
+  {
+    "id": "658e7e2e-8260-4ed0-86c4-9d318342a1c1",
+    "username": "Carla Oliveira",
+    "email": "carla.oliveira@example.com",
+    "password": "$2b$10$cmCwEh5zQaFvhYAP1WQgaOQX05MZNJg3xpeaHxYMeYgiIpTH343z.",
+    "role": "user"
+  },
+  {
+    "id": "28c1011c-62ae-49cf-9591-b3b59f0d005a",
+    "username": "Daniel Lima",
+    "email": "daniel.lima@example.com",
+    "password": "$2b$10$tzUSW3P.aatN7gNHhLXbr.yU6q/yZUJxy9fa7tsZq8AKQaMrIVNHK",
+    "role": "user"
+  },
+  {
+    "id": "5cd5065b-d488-4bc8-81da-da301eb80a64",
+    "username": "Eduarda Rocha",
+    "email": "eduarda.rocha@example.com",
+    "password": "$2b$10$P6L66yQ74PdHlkF8VB6tqO3GElBVf236mWFdzYXckePLxh/fhPvl6",
+    "role": "user"
+  },
+  {
+    "id": "e09d8b39-cbcd-47cf-9362-e0246d5bbfdd",
+    "username": "Felipe Carvalho",
+    "email": "felipe.carvalho@example.com",
+    "password": "$2b$10$tdn6Kv/3Qb1Qg8.fOhDgC.f6Rezl4U/uItuoEy0pY24jKSqvZvrX.",
+    "role": "user"
+  },
+  {
+    "id": "20b02a57-0c0b-47fb-9c4b-a12e40d90325",
+    "username": "Giovana Pires",
+    "email": "giovana.pires@example.com",
+    "password": "$2b$10$drQrua7qwdI/1IHD80aG3uqP4L.4E.Dw7az7wRF6jdMjfhEN0jAKi",
+    "role": "user"
+  },
+  {
+    "id": "03d41c3f-c82c-4866-84e6-e174e0af69d6",
+    "username": "Henrique Alves",
+    "email": "henrique.alves@example.com",
+    "password": "$2b$10$SivJxcurw/SQoYu.1klqaOyRQpHzGKqXPDeLZVDbJPHafEStBmP.u",
+    "role": "user"
+  },
+  {
+    "id": "0813d88e-e0f9-451c-8903-bc729b52c539",
+    "username": "Isabela Mendes",
+    "email": "isabela.mendes@example.com",
+    "password": "$2b$10$AIqjtAa7wJ19bT9ljo5FoOFhCqjJws2ZXrPl96hzTsV1vPZ68aImi",
+    "role": "user"
+  },
+  {
+    "id": "4fe9af67-13c5-4cdc-8773-2babb0bd869c",
+    "username": "João Pedro",
+    "email": "joao.pedro@example.com",
+    "password": "$2b$10$UT6Fkr.owRUhhDAV5j5TP.gjjMtUoIWQ1YJpin7Kh6fk5kxM0sXLa",
+    "role": "user"
+  },
+  {
+    "id": "9f0106fb-55e7-4933-9319-1da00233e167",
+    "username": "João Pedro",
+    "email": "teste3@gmail.com",
+    "password": "$2b$10$.4XgRaw0VfadVB8/os8zT.SQl3CVpUwHyRV9gpJgVyfZpw8ewKNfe",
+    "role": "user"
+  },
+  {
+    "id": "66f35f1a-2b05-4b9b-85b5-97f66b4af054",
+    "username": "Gabriel Alves",
+    "email": "gabriel@admin.com",
+    "password": "$2b$10$6yaKN5nGU5P8R06Qy0kOU.7c40karz9Loyv4sQJXQ.D7kU7kRtWQu",
     "role": "admin"
   }
 ]

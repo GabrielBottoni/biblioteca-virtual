@@ -23,7 +23,7 @@ const saveLivros = async (livros) => {
 const createLivro = async (livro) => {
     const livros = await getLivros();
     const newId = livros.length ? livros[livros.length - 1].id + 1 : 1;
-    const novoLivro = { id: newId, ...livro};
+    const novoLivro = { id: newId, ...livro };
     livros.push(novoLivro);
     await saveLivros(livros);
     return novoLivro;

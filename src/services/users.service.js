@@ -1,6 +1,6 @@
 const usersModel = require('../models/users.model');
 const bcrypt = require('bcryptjs');
-const { v4: uuidv4 } = require('uuid'); 
+const { v4: uuidv4 } = require('uuid');
 
 const getAllUsers = async () => {
     const users = await usersModel.getUsers();
@@ -15,7 +15,6 @@ const saveUsers = async ({ username, email, password }) => {
 
     const userExists = users.some(
         user =>
-            user.username === username ||
             user.email === email
     );
 
@@ -38,7 +37,19 @@ const saveUsers = async ({ username, email, password }) => {
     return safeUser;
 };
 
-module.exports = { 
+const toggleRole = async (id) => {
+    const users = await usersModel.getUsers();
+    const index = users.findIndex(u => String(u.id) === String(id));
+    if (index === -1) throw new Error('Usuário não encontrado');
+
+    users[index].role = users[index].role === 'admin' ? 'user' : 'admin';
+    await usersModel.saveUsers(users);
+    return users[index];
+};
+
+
+module.exports = {
     getAllUsers,
     saveUsers,
+    toggleRole
 };

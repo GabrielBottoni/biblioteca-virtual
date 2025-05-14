@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { getLivros, getLivrosById, saveLivros} = require('../models/livros.model.js');
+const { getLivros, getLivrosById, saveLivros } = require('../models/livros.model.js');
 const path = require('path');
 
 const filePath = path.join(__dirname, '../data/livros.json');

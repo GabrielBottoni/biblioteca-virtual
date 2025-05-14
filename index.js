@@ -24,7 +24,8 @@ app.use('/livros', verifyToken, livroRoutes);
 
 app.use('/edit/livros', verifyToken, livroRoutes);
 // Rota de usuários
-app.use('/users', verifyToken, usersRoutes);
+app.use('/users', usersRoutes);
+app.use('/edit/users', verifyToken, usersRoutes);
 
 const port = process.env.PORT;
 app.listen(port, () => 

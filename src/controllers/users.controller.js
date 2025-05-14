@@ -12,6 +12,7 @@ const getAllUsers = async (req, res) => {
         res.status(500).json({ message: 'Erro interno do servidor: ' + error.message });
     }
 }
+
 const createUser = async (req, res) => {
     const { username, email, password, role } = req.body;
 
@@ -32,7 +33,17 @@ const createUser = async (req, res) => {
     }
 }
 
+const toggleUserRole = async (req, res) => {
+    try {
+        const updatedUser = await usersService.toggleRole(req.params.id);
+        res.status(200).json(updatedUser);
+    } catch (error) {
+        res.status(500).json({ message: 'Erro ao alterar função do usuário', error: error.message });
+    }
+};
+
 module.exports = {
     getAllUsers,
-    createUser
+    createUser,
+    toggleUserRole
 };
