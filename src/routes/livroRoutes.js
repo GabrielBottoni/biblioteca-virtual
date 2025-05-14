@@ -10,7 +10,7 @@ router.get('/', LivroController.getAllLivros);
 //GET /livros/:id
 router.get('/:id', LivroController.getLivro);
 //PATCH /livros
-router.patch('/:id', verifyToken, authorizeRoles ("admin"), LivroController.updateLivro);
+router.patch('/:id', verifyToken, authorizeRoles ("admin"), upload.single('image'), LivroController.updateLivro);
 //DELETE /livros/:id
 router.delete('/:id', verifyToken, authorizeRoles ("admin"), LivroController.deleteLivro);
 //POST /livros

@@ -1,50 +1,162 @@
 [
   {
-    "id": 1746588070908,
-    "titulo": "seila",
-    "autor": "testando ",
-    "ano": "2025",
-    "genero": "testando ",
-    "image": "1746588070876-155245935.jpg"
+    "id": 1747185542595,
+    "titulo": "Dom Quixote",
+    "autor": "Miguel de Cervantes",
+    "ano": "1605",
+    "genero": "Romance",
+    "image": "1747187183614-29408996.jpg"
   },
   {
-    "id": 1747084149496,
-    "titulo": "testeeeeee",
-    "autor": "eeeeeee",
-    "ano": "2025",
-    "genero": "eeeeeeee",
-    "image": "1747084149495-418055999.jpg"
+    "id": 1747186024239,
+    "titulo": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "ano": "1813",
+    "genero": "Romance",
+    "image": "1747186024236-9071525.jpg"
   },
   {
-    "id": 1747088862300,
-    "titulo": "lalalala",
-    "autor": "teste",
-    "ano": "2022",
-    "genero": "tanto faz",
-    "image": "/uploads/1747088862296-851387990.jpg"
+    "id": 1747186052817,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "ano": "1949",
+    "genero": "Distopia",
+    "image": "1747186052811-11442289.jpg"
   },
   {
-    "id": 1747089490356,
-    "titulo": "lalalala",
-    "autor": "teste",
-    "ano": "2022",
-    "genero": "tanto faz",
-    "image": "/uploads/1747089490353-662028784.jpg"
+    "id": 1747186086302,
+    "titulo": "O Grande Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "ano": "1925",
+    "genero": "Ficção",
+    "image": "1747186086299-570889064.jpg"
   },
   {
-    "id": 1747089567912,
-    "titulo": "lalalala",
-    "autor": "teste",
-    "ano": "2022",
-    "genero": "tanto faz",
-    "image": "1747089567897-624222570.jpg"
+    "id": 1747186114259,
+    "titulo": "Moby Dick",
+    "autor": "Herman Melville",
+    "ano": "1851",
+    "genero": "Aventura",
+    "image": "1747186114258-986805013.jpg"
   },
   {
-    "id": 1747098797329,
-    "titulo": "teste de ID",
-    "autor": "teste",
-    "ano": "2022",
-    "genero": "tanto faz",
-    "image": "1747098797321-922522391.jpg"
+    "id": 1747186143968,
+    "titulo": "Ulisses",
+    "autor": "James Joyce",
+    "ano": "1922",
+    "genero": "Modernismo",
+    "image": "1747186143967-766097744.jpg"
+  },
+  {
+    "id": 1747186174687,
+    "titulo": "Em Busca do Tempo Perdido",
+    "autor": "Marcel Proust",
+    "ano": "1913",
+    "genero": "Literatura",
+    "image": "1747186174685-184225213.jpg"
+  },
+  {
+    "id": 1747186202006,
+    "titulo": "Guerra e Paz",
+    "autor": "Liev Tolstói",
+    "ano": "1869",
+    "genero": "Histórico",
+    "image": "1747186202004-955352440.jpg"
+  },
+  {
+    "id": 1747186227837,
+    "titulo": "Crime e Castigo",
+    "autor": "Fiódor Dostoiévski",
+    "ano": "1866",
+    "genero": "Ficção",
+    "image": "1747186227833-170114867.jpg"
+  },
+  {
+    "id": 1747186264230,
+    "titulo": "O Senhor dos Anéis",
+    "autor": "J.R.R. Tolkien",
+    "ano": "1954",
+    "genero": "Fantasia",
+    "image": "1747186264228-646060285.jpg"
+  },
+  {
+    "id": 1747186292949,
+    "titulo": "Cem Anos de Solidão",
+    "autor": "Gabriel García Márquez",
+    "ano": "1967",
+    "genero": "Realismo Mágico",
+    "image": "1747186292948-559090973.jpg"
+  },
+  {
+    "id": 1747186326116,
+    "titulo": "O Apanhador no Campo de Centeio",
+    "autor": "J.D. Salinger",
+    "ano": "1951",
+    "genero": "Ficção",
+    "image": "1747186326114-116777208.jpg"
+  },
+  {
+    "id": 1747186355660,
+    "titulo": "O Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "ano": "1937",
+    "genero": "Fantasia",
+    "image": "1747186355642-63290180.jpg"
+  },
+  {
+    "id": 1747186381638,
+    "titulo": "Madame Bovary",
+    "autor": "Gustave Flaubert",
+    "ano": "1856",
+    "genero": "Realismo",
+    "image": "1747186381635-174467698.jpg"
+  },
+  {
+    "id": 1747186411155,
+    "titulo": "Os Irmãos Karamázov",
+    "autor": "Fiódor Dostoiévski",
+    "ano": "1880",
+    "genero": "Filosófico",
+    "image": "1747186411151-848582494.jpg"
+  },
+  {
+    "id": 1747186433784,
+    "titulo": "Jane Eyre",
+    "autor": "Charlotte Brontë",
+    "ano": "1847",
+    "genero": "Romance",
+    "image": "1747186433783-345823249.jpg"
+  },
+  {
+    "id": 1747186458801,
+    "titulo": "O Morro dos Ventos Uivantes",
+    "autor": "Emily Brontë",
+    "ano": "1847",
+    "genero": "Romance Gótico",
+    "image": "1747186458799-437514537.jpg"
+  },
+  {
+    "id": 1747186483079,
+    "titulo": "Lolita",
+    "autor": "Vladimir Nabokov",
+    "ano": "1955",
+    "genero": "Controvérsia",
+    "image": "1747186483077-466403767.jpg"
+  },
+  {
+    "id": 1747186514676,
+    "titulo": "O Processo",
+    "autor": "Franz Kafka",
+    "ano": "1925",
+    "genero": "Modernismo",
+    "image": "1747186514675-17664673.jpg"
+  },
+  {
+    "id": 1747186537561,
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "ano": "1915",
+    "genero": "Fantasia Sombria",
+    "image": "1747186537559-373655936.jpg"
   }
 ]

@@ -1,13 +1,13 @@
 const usersModel = require('../models/users.model');
 const bcrypt = require('bcryptjs');
-const { v4: uuidv4 } = require('uuid'); // Importando o UUID
+const { v4: uuidv4 } = require('uuid'); 
 
 const getAllUsers = async () => {
     const users = await usersModel.getUsers();
     if (!users || users.length === 0) {
         throw new Error('Usuários não encontrados');
     }
-    return users.map(({ password, ...user }) => user); // Remove a senha de todos
+    return users.map(({ password, ...user }) => user);
 };
 
 const saveUsers = async ({ username, email, password }) => {
@@ -24,7 +24,7 @@ const saveUsers = async ({ username, email, password }) => {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const newUser = {
-        id: uuidv4(), // Gerando um ID único com UUID
+        id: uuidv4(),
         username,
         email,
         password: hashedPassword,

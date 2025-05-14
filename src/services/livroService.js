@@ -22,21 +22,17 @@ const getLivro = async (id) => {
 }
 
 const updateLivro = async (id, data) => {
-    
+    const livro = await getLivro(id);
+
+    const updatedLivro = { ...livro, ...data };
+
     const livros = await getLivros();
+    const index = livros.findIndex(l => String(l.id) === String(id));
+    livros[index] = updatedLivro;
 
-    const livroIndex = livros.findIndex(livr => String(livr.id) === String(id));
-    if (livroIndex === -1) {
-        throw new Error('Livro não encontrado.');
-    }
-
-    const updatedLivros = {...livros[livroIndex], ...data};
-
-    livros[livroIndex] = updatedLivros;
     await saveLivros(livros);
-    return updatedLivros;
-
-}
+    return updatedLivro;
+};
 
 const deleteLivro = async (id) => {
     const livros = await getLivros();

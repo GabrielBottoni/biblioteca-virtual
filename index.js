@@ -21,6 +21,8 @@ app.use('/auth', authRoutes);
 
 // Rotas privadas
 app.use('/livros', verifyToken, livroRoutes);
+
+app.use('/edit/livros', verifyToken, livroRoutes);
 // Rota de usuários
 app.use('/users', verifyToken, usersRoutes);
 
